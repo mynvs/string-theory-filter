@@ -1,12 +1,11 @@
 from imageio.v3 import imread, imwrite
 import numpy as np
 from os import system, mkdir
-from glob import glob
-from scipy.ndimage import median_filter
 from scipy.ndimage import gaussian_filter
+from scipy.signal import medfilt2d
 
 def median(x):
-    return median_filter(x, size=MEDIAN_SIZE)
+    return medfilt2d(x, kernel_size=MEDIAN_SIZE)
 
 def to_uint8(x):
     return np.round(x*255).clip(0, 255).astype(np.uint8)
@@ -15,11 +14,11 @@ def to_uint8(x):
 
 MEDIAN_SIZE = 9
 
-GAUSS_SIZE_MAX = 126
-DIFF_GAUSS_SIZE_MAX = 55
+GAUSS_SIZE_MAX = 38
+DIFF_GAUSS_SIZE_MAX = 17
 DIFF_AMOUNT = 0.2
 
-POWER_VAL = 0.7
+POWER_VAL = 0.4
 
 GRAYSCALE = True
 SUBPIXEL = False
@@ -45,7 +44,6 @@ system(f'cd outputs && del *.png')
 for i, val in enumerate(np.linspace(0.005, 1, 200)):
 
     gauss_size = GAUSS_SIZE_MAX*val
-
     diff_gauss_size = DIFF_GAUSS_SIZE_MAX*val
 
 
@@ -66,9 +64,6 @@ for i, val in enumerate(np.linspace(0.005, 1, 200)):
     # normalize
     fmin, fmax = np.min(filtered_img1), np.max(filtered_img1)
     filtered_img1 = (filtered_img1 - fmin)/(fmax - fmin)
-
-    # filtered_img1 = to_uint8(filtered_img1)
-    # imwrite(f'outputs/{i}.png', filtered_img1)
 
     if GRAYSCALE:
         filtered_img2 = median(filtered_img1)

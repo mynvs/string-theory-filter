@@ -10,6 +10,12 @@ def median(x):
 def to_uint8(x):
     return np.round(x*255).clip(0, 255).astype(np.uint8)
 
+def normalized(x):
+    s = int(np.ceil(MEDIAN_SIZE*0.5))
+    height, width = x.shape[:2]
+    min_, max_ = np.min(x[s:height-s, s:width-s]), np.max(x[s:height-s, s:width-s])
+    return (x - min_)/(max_ - min_)
+
 
 
 MEDIAN_SIZE = 9
@@ -38,8 +44,8 @@ try:
     mkdir('outputs')
 except FileExistsError:
     pass
-
 system(f'cd outputs && del *.png')
+
 
 for i, val in enumerate(np.linspace(0.005, 1, 200)):
 
@@ -50,7 +56,6 @@ for i, val in enumerate(np.linspace(0.005, 1, 200)):
     if GRAYSCALE:
         filtered_img1 = gaussian_filter(input_img[:,:,0], gauss_size)
         filtered_img11 = gaussian_filter(input_img[:,:,0], diff_gauss_size)
-
     else:              
         filtered_img1 = np.dstack((gaussian_filter(input_img[:,:,0], gauss_size),
                                    gaussian_filter(input_img[:,:,1], gauss_size),
@@ -60,26 +65,23 @@ for i, val in enumerate(np.linspace(0.005, 1, 200)):
                                     gaussian_filter(input_img[:,:,2], diff_gauss_size)))
 
     filtered_img1 = np.abs(filtered_img1 - filtered_img11*DIFF_AMOUNT)
-
-    # normalize
-    fmin, fmax = np.min(filtered_img1), np.max(filtered_img1)
-    filtered_img1 = (filtered_img1 - fmin)/(fmax - fmin)
+    filtered_img1 = normalized(filtered_img1)
 
     if GRAYSCALE:
         filtered_img2 = median(filtered_img1)
     else:
-        filtered_img2 = np.dstack((median(filtered_img1[:,:,0]), median(filtered_img1[:,:,1]), median(filtered_img1[:,:,2])))
+        filtered_img2 = np.dstack((median(filtered_img1[:,:,0]),
+                                   median(filtered_img1[:,:,1]),
+                                   median(filtered_img1[:,:,2])))
 
     filtered_img3 = np.abs(filtered_img2 - filtered_img1)
+    filtered_img3 = np.power(normalized(filtered_img3), POWER_VAL)
 
-    # normalize
-    fmin, fmax = np.min(filtered_img3), np.max(filtered_img3)
-    filtered_img3 = np.power((filtered_img3 - fmin)/(fmax - fmin), POWER_VAL)
-    filtered_img3 = to_uint8(filtered_img3)
 
-    imwrite(f'outputs/{i}.png', filtered_img3)
+    imwrite(f'outputs/{i}.png', to_uint8(filtered_img3))
     if SUBPIXEL:
         system(f'subpixeler "outputs/{i}.png"')
     print(i)
+
 
 system('gifski --quality=100 --lossy-quality=100 --motion-quality=100 --extra --fps 50 -o output.gif outputs/*.png')

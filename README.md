@@ -20,6 +20,6 @@
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image4.png?raw=true)
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image5.png?raw=true)
 
-# credits
+# citations
 - http://www.shellandslate.com/fastmedian.html
 - https://github.com/ImageOptim/gifski

@@ -14,6 +14,7 @@
 	`pip install -r requirements`
 
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image.gif?raw=true)
+![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image2.gif?raw=true)
 
 # credits
 - http://www.shellandslate.com/fastmedian.html

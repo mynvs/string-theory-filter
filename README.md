@@ -14,8 +14,8 @@
 	`pip install -r requirements`
 
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image1.gif?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image2.gif?raw=true)
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image6.png?raw=true)
+![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image2.gif?raw=true)
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image3.gif?raw=true)
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image4.png?raw=true)
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image5.png?raw=true)

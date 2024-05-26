@@ -1,20 +1,20 @@
 # string theory filter
 ### installation
 
-1.   install python:
+1. install python:
 	https://www.python.org/downloads/
 	check "Add Python 3.x to PATH" when you install python.
 
-2.   clone github repository
-3.   open a cmd terminal in main directory
+2. clone github repository
+3. open a cmd terminal in main directory
 
-4.   type the following commands:
+4. type the following commands:
 	- verify that pip is working:
 		`python`
 	- verify that pip is working:
 		`pip --version`
 
-6.   install the required libraries:
+6. install the required libraries:
 	- `pip install -r requirements`
 
 ### gallery

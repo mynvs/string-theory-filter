@@ -1,4 +1,5 @@
 # string theory filter
+### install
 
 1. install python:
 	https://www.python.org/downloads/

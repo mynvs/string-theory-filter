@@ -1,17 +1,19 @@
 # string theory filter
-### install
+### installation
 
-1. install python:
+#### 1. install python:
 	https://www.python.org/downloads/
 	check "Add Python 3.x to PATH" when you install python.
 
-2. verify that python is working:
+#### 2. verify that python is working:
 	`python`
 
-3. verify that pip is working:
+#### 3. verify that pip is working:
 	`pip --version`
 
-4. install the required libraries:
+#### 4. clone github repository
+
+#### 5. install the required libraries:
 	`pip install -r requirements`
 
 # gallery

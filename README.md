@@ -9,13 +9,13 @@
    	- `https://github.com/mynvs/string-theory-filter.git`
    	- or download .zip file
 
-3. type the following commands:
+3. type the following commands
 	- verify that pip is working:
 		`python`
 	- verify that pip is working:
 		`pip --version`
-4. open a cmd terminal in main directory (string-theory-filter-main)
-   and install the required libraries:
+4. open a cmd terminal in "string-theory-filter-main" directory
+   and install the required libraries
 	- `pip install -r requirements`
 
 ### gallery

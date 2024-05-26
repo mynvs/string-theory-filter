@@ -27,7 +27,7 @@ MOTION_QUALITY = 100
 #-------- filter settings ---------------
 GRADIENT_MAP = 'colormap5'
 # GRADIENT_MAP = False  # no gradient map
-POWER_VAL = 1
+POWER_VAL = 0.8
 
 GAUSS_SIZE_MAX = 112
 DIFF_GAUSS_SIZE_MAX = 50

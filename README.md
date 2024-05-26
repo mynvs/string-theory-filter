@@ -1,11 +1,11 @@
 # string theory filter
 ### installation
 
-1. install python
+1. install python:
 	- https://www.python.org/downloads/
 	- check "Add Python 3.x to PATH" when you install python.
 
-2. clone github repository
+2. clone github repository:
    	- run \``https://github.com/mynvs/string-theory-filter.git`\`
    	- or download .zip file
 
@@ -15,7 +15,7 @@
 5. verify that pip is working:
 	- run \``pip --version`\`
 
-7. install required libraries
+7. install required libraries:
    	- open a cmd terminal in "string-theory-filter-main" directory
 	- run \``pip install -r requirements`\`
 

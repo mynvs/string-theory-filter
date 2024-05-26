@@ -10,7 +10,7 @@
    	- or download .zip file
 
 3. verify that python is working:
-	- run `python`
+	- run \``python`
 
 5. verify that pip is working:
 	- run `pip --version`

@@ -9,9 +9,9 @@
 3. open a cmd terminal in main directory
 
 4. type the following commands:
-	verify that pip is working:
+	- verify that pip is working:
 		`python`
-	verify that pip is working:
+	- verify that pip is working:
 		`pip --version`
 
 6. install the required libraries:

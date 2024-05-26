@@ -15,7 +15,7 @@
 		`pip --version`
 
 6. install the required libraries:
-	`pip install -r requirements`
+	- `pip install -r requirements`
 
 ### gallery
 

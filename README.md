@@ -8,7 +8,7 @@
 2. clone github repository
    	- `https://github.com/mynvs/string-theory-filter.git`
    	- or download .zip file
-4. open a cmd terminal in main directory
+4. open a cmd terminal in main directory (string-theory-filter-main)
 
 5. type the following commands:
 	- verify that pip is working:

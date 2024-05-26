@@ -19,8 +19,6 @@
    	- open a cmd terminal in "string-theory-filter-main" directory
 	- run \``pip install -r requirements`\`
 
-### gallery
-
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image1.gif?raw=true)
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image6.png?raw=true)
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image2.gif?raw=true)

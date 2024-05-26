@@ -6,18 +6,18 @@
 	- check "Add Python 3.x to PATH" when you install python.
 
 2. clone github repository
-   	- run `https://github.com/mynvs/string-theory-filter.git`
+   	- run \``https://github.com/mynvs/string-theory-filter.git`\`
    	- or download .zip file
 
 3. verify that python is working:
-	- run \``python`
+	- run \``python`\`
 
 5. verify that pip is working:
-	- run `pip --version`
+	- run \``pip --version`\`
 
 7. install required libraries
    	- open a cmd terminal in "string-theory-filter-main" directory
-	- run `pip install -r requirements`
+	- run \``pip install -r requirements`\`
 
 ### gallery
 

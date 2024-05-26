@@ -1,7 +1,7 @@
 # string theory filter
 ### installation
 
-1. install python:
+1. install python
 	- https://www.python.org/downloads/
 	- check "Add Python 3.x to PATH" when you install python.
 

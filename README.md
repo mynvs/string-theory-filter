@@ -5,19 +5,18 @@
 	https://www.python.org/downloads/
 	check "Add Python 3.x to PATH" when you install python.
 
-2. verify that python python and pip are working
-	type the folowing commands:
-	`python`
+2. clone github repository
+3. open a cmd terminal in main directory
 
-3. verify that pip is working:
-	`pip --version`
+4. type the following commands:
+	verify that pip is working:
+		`python`
+	verify that pip is working:
+		`pip --version`
 
-4. clone github repository
-
-5. install the required libraries:
+6. install the required libraries:
 	`pip install -r requirements`
 
-# gallery
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image1.gif?raw=true)
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image6.png?raw=true)
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image2.gif?raw=true)

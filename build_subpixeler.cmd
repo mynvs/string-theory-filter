@@ -1,0 +1,1 @@
+g++ -pedantic -Wall -ffast-math subpixeler.cpp -o subpixeler -O3

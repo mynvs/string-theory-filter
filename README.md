@@ -1,4 +1,4 @@
-# string theory filter
+# string theory filter v1.0
 ### installation
 
 1. install python:

@@ -1,5 +1,5 @@
 # string theory filter v1.0
-### installation (windows)
+### installation
 
 1. install python:
 	- https://www.python.org/downloads/

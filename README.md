@@ -16,7 +16,7 @@
 	- run \``pip --version`\`
 
 5. install required libraries:
-   	- open a cmd terminal in "string-theory-filter-main" directory
+   	- open a cmd terminal in the main directory
 	- run \``pip install -r requirements`\`
 
 ![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image1.gif?raw=true)

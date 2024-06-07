@@ -1,4 +1,6 @@
 # string theory filter v1.0
+![Python](https://img.shields.io/badge/python-3.10-blue.svg)
+![Repo Size](https://img.shields.io/github/repo-size/mynvs/string-theory-filter)
 ### installation
 
 1. install python:

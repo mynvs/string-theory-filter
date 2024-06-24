@@ -22,12 +22,12 @@
 	- run \``pip install -r requirements`\`
 
 ![loading gif...](https://github.com/mynvs/images/blob/099a90279e606151e60f436c061303cb4a146aae/string-theory-filter_image1.gif)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image6.png?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image2.gif?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image3.gif?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image4.png?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image5.png?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image7.gif?raw=true)
+![loading gif...](https://github.com/mynvs/images/blob/099a90279e606151e60f436c061303cb4a146aae/string-theory-filter_image6.png)
+![loading gif...](https://github.com/mynvs/images/blob/099a90279e606151e60f436c061303cb4a146aae/string-theory-filter_image2.gif?raw=true)
+![loading gif...](https://github.com/mynvs/images/blob/099a90279e606151e60f436c061303cb4a146aae/string-theory-filter_image3.gif?raw=true)
+![loading gif...](https://github.com/mynvs/images/blob/099a90279e606151e60f436c061303cb4a146aae/string-theory-filter_image4.png?raw=true)
+![loading gif...](https://github.com/mynvs/images/blob/099a90279e606151e60f436c061303cb4a146aae/string-theory-filter_image5.png?raw=true)
+![loading gif...](https://github.com/mynvs/images/blob/099a90279e606151e60f436c061303cb4a146aae/string-theory-filter_image7.gif?raw=true)
 
 # citations
 - http://www.shellandslate.com/fastmedian.html

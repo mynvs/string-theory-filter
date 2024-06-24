@@ -21,13 +21,13 @@
    	- open a cmd terminal in the main directory
 	- run \``pip install -r requirements`\`
 
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image1.gif?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image6.png?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image2.gif?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image3.gif?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image4.png?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image5.png?raw=true)
-![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/image7.gif?raw=true)
+![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image1.gif?raw=true)
+![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image6.png?raw=true)
+![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image2.gif?raw=true)
+![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image3.gif?raw=true)
+![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image4.png?raw=true)
+![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image5.png?raw=true)
+![loading gif...](https://github.com/mynvs/string_theory_filter/blob/images/string-theory-filter_image7.gif?raw=true)
 
 # citations
 - http://www.shellandslate.com/fastmedian.html
